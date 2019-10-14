@@ -99,11 +99,11 @@
 		"/docs"
 	],
 	"dependencies": {
-		"@phaetonhq/phaeton-api-client": "2.0.3",
-		"@phaetonhq/phaeton-constants": "1.2.3",
-		"@phaetonhq/phaeton-cryptography": "2.3.0",
-		"@phaetonhq/phaeton-passphrase": "2.0.3",
-		"@phaetonhq/phaeton-transactions": "2.3.1",
+		"phaeton-api-client": "git+https://git@github.com/hotam-singh/phaeton-api-client.git",
+		"phaeton-constants": "git+https://git@github.com/hotam-singh/phaeton-constants.git",
+		"phaeton-cryptography": "git+https://git@github.com/hotam-singh/phaeton-cryptography.git",
+		"phaeton-passphrase": "git+https://git@github.com/hotam-singh/phaeton-passphrase.git",
+		"phaeton-transactions": "git+https://git@github.com/hotam-singh/phaeton-transactions.git",
 		"@oclif/command": "1.5.6",
 		"@oclif/config": "1.9.0",
 		"@oclif/errors": "1.2.2",
