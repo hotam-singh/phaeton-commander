@@ -11,13 +11,13 @@
 		"nodejs",
 		"javascript"
 	],
-	"homepage": "https://github.com/PhaetonHQ/phaeton-sdk/tree/master/commander#readme",
+	"homepage": "https://github.com/hotam-singh/phaeton-sdk/tree/master/commander#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/PhaetonHQ/phaeton-sdk.git"
+		"url": "git+https://github.com/hotam-singh/phaeton-sdk.git"
 	},
 	"bugs": {
-		"url": "https://github.com/PhaetonHQ/phaeton-sdk/issues"
+		"url": "https://github.com/hotam-singh/phaeton-sdk/issues"
 	},
 	"engines": {
 		"node": ">=8.3.0",
@@ -157,8 +157,4 @@
 		"tslint-immutable": "5.1.2",
 		"typescript": "3.3.1"
 	}
-
-,"_resolved": "https://registry.npmjs.org/phaeton-commander/-/phaeton-commander-2.2.3.tgz"
-,"_integrity": "sha512-VWVypQ3S+yh39OpFg4WTGybwFqMvZjHtAzkx8I7OMBVgTD4s73E4PiD+JxW6OuTRzXwfoA8v8JVy+I1bvIpWOQ=="
-,"_from": "phaeton-commander@2.2.3"
 }
