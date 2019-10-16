@@ -1,4 +1,4 @@
-import * as cryptography from 'phaeton-cryptography';
+import * as cryptography from '@phaetonhq/phaeton-cryptography';
 interface EncryptMessageInputs {
     readonly message: string;
     readonly passphrase: string;
