@@ -99,6 +99,7 @@
 		"/docs"
 	],
 	"dependencies": {
+		"bignum": "git+https://git@github.com/hotam-singh/bignum.git",
 		"phaeton-api-client": "git+https://git@github.com/hotam-singh/phaeton-api-client.git",
 		"phaeton-constants": "git+https://git@github.com/hotam-singh/phaeton-constants.git",
 		"phaeton-cryptography": "git+https://git@github.com/hotam-singh/phaeton-cryptography.git",
