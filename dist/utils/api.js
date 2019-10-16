@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const phaeton_api_client_1 = require("@phaetonhq/phaeton-api-client");
+const phaeton_api_client_1 = require("phaeton-api-client");
 const constants_1 = require("./constants");
 const seedNodes = {
     main: phaeton_api_client_1.APIClient.constants.MAINNET_NODES,

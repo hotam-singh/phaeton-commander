@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const phaeton_cryptography_1 = require("@phaetonhq/phaeton-cryptography");
+const phaeton_cryptography_1 = require("phaeton-cryptography");
 const axios = tslib_1.__importStar(require("axios"));
 const fs_extra_1 = tslib_1.__importDefault(require("fs-extra"));
 const tar = tslib_1.__importStar(require("tar"));

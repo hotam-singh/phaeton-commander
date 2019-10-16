@@ -1,5 +1,5 @@
-import { APIClient } from '@phaetonhq/phaeton-api-client';
-import { NodeResource } from '@phaetonhq/phaeton-api-client/dist-node/resources/node';
+import { APIClient } from 'phaeton-api-client';
+import { NodeResource } from 'phaeton-api-client/dist-node/resources/node';
 interface APIResponse {
     readonly data?: unknown;
 }

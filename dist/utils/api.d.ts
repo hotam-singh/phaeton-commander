@@ -1,4 +1,4 @@
-import { APIClient } from '@phaetonhq/phaeton-api-client';
+import { APIClient } from 'phaeton-api-client';
 interface APIClientOptions {
     readonly network: string;
     readonly nodes: ReadonlyArray<string>;

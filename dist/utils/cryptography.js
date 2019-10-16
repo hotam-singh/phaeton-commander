@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const cryptography = tslib_1.__importStar(require("@phaetonhq/phaeton-cryptography"));
+const cryptography = tslib_1.__importStar(require("phaeton-cryptography"));
 exports.encryptMessage = ({ message, passphrase, recipient, }) => cryptography.encryptMessageWithPassphrase(message, passphrase, recipient);
 exports.decryptMessage = ({ cipher, nonce, passphrase, senderPublicKey, }) => ({
     message: cryptography.decryptMessageWithPassphrase(cipher, nonce, passphrase, senderPublicKey),
