@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-const passphraseModule = tslib_1.__importStar(require("/phaeton-passphrase"));
+const passphraseModule = tslib_1.__importStar(require("phaeton-passphrase"));
 const utils_1 = require("./utils");
 exports.getFirstLineFromString = (multilineString) => typeof multilineString === 'string'
     ? multilineString.split(/[\r\n]+/)[0]
