@@ -1,7 +1,7 @@
 import { flags as flagParser } from '@oclif/command';
 import BaseCommand from '../../../base';
 import { InputFromSourceOutput } from '../../../utils/input';
-export declare const processInputs: () => ({ passphrase, secondPassphrase, }: InputFromSourceOutput) => Partial<import("@phaetonhq/phaeton-transactions").TransactionJSON>;
+export declare const processInputs: () => ({ passphrase, secondPassphrase, }: InputFromSourceOutput) => Partial<import("/phaeton-transactions").TransactionJSON>;
 export default class SecondPassphraseCommand extends BaseCommand {
     static description: string;
     static examples: string[];
