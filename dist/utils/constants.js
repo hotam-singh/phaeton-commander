@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const phaeton_constants_1 = require("/phaeton-constants");
+const phaeton_constants_1 = require("phaeton-constants");
 exports.COMMAND_TYPES = [
     'accounts',
     'addresses',
