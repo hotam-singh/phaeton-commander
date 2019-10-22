@@ -582,7 +582,6 @@
 			"version": "2.4.1",
 			"resolved": "https://registry.npmjs.org/@types/bip39/-/bip39-2.4.1.tgz",
 			"integrity": "sha512-QHx0qI6JaTIW/S3zxE/bXrwOWu6Boos+LZ4438xmFAHY5k+qHkExMdAnb/DENEt2RBnOdZ6c5J+SHrnLEhUohQ==",
-			"dev": true,
 			"requires": {
 				"@types/node": "*"
 			}
@@ -2632,7 +2631,8 @@
 				},
 				"ansi-regex": {
 					"version": "2.1.1",
-					"bundled": true
+					"bundled": true,
+					"optional": true
 				},
 				"aproba": {
 					"version": "1.2.0",
@@ -2997,7 +2997,8 @@
 				},
 				"safe-buffer": {
 					"version": "5.1.2",
-					"bundled": true
+					"bundled": true,
+					"optional": true
 				},
 				"safer-buffer": {
 					"version": "2.1.2",
@@ -3045,6 +3046,7 @@
 				"strip-ansi": {
 					"version": "3.0.1",
 					"bundled": true,
+					"optional": true,
 					"requires": {
 						"ansi-regex": "^2.0.0"
 					}
@@ -3083,11 +3085,13 @@
 				},
 				"wrappy": {
 					"version": "1.0.2",
-					"bundled": true
+					"bundled": true,
+					"optional": true
 				},
 				"yallist": {
 					"version": "3.0.3",
-					"bundled": true
+					"bundled": true,
+					"optional": true
 				}
 			}
 		},
@@ -4919,6 +4923,15 @@
 						}
 					}
 				}
+			}
+		},
+		"phaeton-passphrase": {
+			"version": "git+https://git@github.com/hotam-singh/phaeton-passphrase.git#46889167602459a6b07c99b761ad4854ae2ddf8c",
+			"from": "git+https://git@github.com/hotam-singh/phaeton-passphrase.git",
+			"requires": {
+				"@types/bip39": "2.4.1",
+				"@types/node": "10.12.21",
+				"bip39": "2.5.0"
 			}
 		},
 		"picomatch": {
