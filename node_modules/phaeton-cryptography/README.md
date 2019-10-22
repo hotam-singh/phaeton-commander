@@ -1,11 +1,11 @@
-# @phaetonhq/phaeton-cryptography
+# phaeton-cryptography
 
-@phaetonhq/phaeton-cryptography is containing general cryptographic functions for use with Phaeton-related software
+phaeton-cryptography is containing general cryptographic functions for use with Phaeton-related software
 
 ## Installation
 
 ```sh
-$ npm install --save @phaetonhq/phaeton-cryptography
+$ npm install --save phaeton-cryptography
 ```
 
 ## Benchmarking

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const BigNum = require("@phaetonhq/bignum");
+const BigNum = require("bignum");
 exports.BIG_ENDIAN = 'big';
 exports.LITTLE_ENDIAN = 'little';
 exports.intToBuffer = (value, byteLength, endianness = exports.BIG_ENDIAN) => new BigNum(value).toBuffer({ size: byteLength, endian: endianness });
