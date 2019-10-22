@@ -4889,6 +4889,14 @@
 				"sha.js": "^2.4.8"
 			}
 		},
+		"phaeton-api-client": {
+			"version": "git+https://git@github.com/hotam-singh/phaeton-api-client.git#2fabf55beec2056eb7f0efba03f0a88eed8b9ab9",
+			"from": "git+https://git@github.com/hotam-singh/phaeton-api-client.git",
+			"requires": {
+				"@types/node": "10.12.21",
+				"axios": "0.19.0"
+			}
+		},
 		"phaeton-constants": {
 			"version": "git+https://git@github.com/hotam-singh/phaeton-constants.git#e21015110ab7a9b766742f0b92b1da3b93ab4d24",
 			"from": "git+https://git@github.com/hotam-singh/phaeton-constants.git",
